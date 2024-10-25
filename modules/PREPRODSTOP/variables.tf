@@ -48,3 +48,8 @@ variable "alb_sg_id" {
   type        = string
 }
 
+variable "s3_url" {
+  description = "S3 url for the instance"
+  type        = string
+}
+

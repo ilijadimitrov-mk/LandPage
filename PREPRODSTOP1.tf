@@ -1,7 +1,7 @@
-module "preprod_stop" {
+module "preprod_stop_1" {
   source = "./modules/PREPRODSTOP"
 
-  instance_name   = "landpage"
+  instance_name   = "landpage1"
   ami_id          = data.aws_ami.latest_ubuntu.id
   instance_type   = "t3.xlarge"
   vpc_id          = var.vpc_id
